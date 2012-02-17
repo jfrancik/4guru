@@ -11,7 +11,7 @@
 </p>
 
 <ol>
-  <% @cinema.shows.group('film_id').each do |show| %>
+  <% @cinema.shows.each do |show| %>
     <li><%= link_to show.film.title, show %></li>
   <% end %>
 </ol>

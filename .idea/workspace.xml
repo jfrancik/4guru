@@ -26,16 +26,25 @@
       <file leaf-file-name="cinemas_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/cinemas_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/cinemas/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="6" selection-start="194" selection-end="194" vertical-scroll-proportion="0.35876623">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/cinemas/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="32" selection-start="173" selection-end="173" vertical-scroll-proportion="0.35876623">
+            <state line="14" column="25" selection-start="203" selection-end="203" vertical-scroll-proportion="-9.153846">
               <folding />
             </state>
           </provider>
@@ -57,12 +66,12 @@
         <option value="$PROJECT_DIR$/app/models/cinema.rb" />
         <option value="$PROJECT_DIR$/app/models/film.rb" />
         <option value="$PROJECT_DIR$/app/models/show.rb" />
-        <option value="$PROJECT_DIR$/app/views/cinemas/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/films/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/films/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shows/show.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/cinemas/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/cinemas/index.html.erb" />
       </list>
     </option>
   </component>
@@ -554,13 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cinemas/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="208" selection-end="208" vertical-scroll-proportion="-9.153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/films/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="19" selection-start="179" selection-end="179" vertical-scroll-proportion="-8.5">
@@ -603,16 +605,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/cinemas_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/cinemas/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
+        <state line="14" column="25" selection-start="203" selection-end="203" vertical-scroll-proportion="-9.153846">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cinemas/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/cinemas_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="173" selection-end="173" vertical-scroll-proportion="0.35876623">
+        <state line="3" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cinemas/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="6" selection-start="194" selection-end="194" vertical-scroll-proportion="0.35876623">
           <folding />
         </state>
       </provider>
