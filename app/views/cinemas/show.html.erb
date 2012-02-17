@@ -1,20 +1,12 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Name:</b>
-  <%= @cinema.name %>
-</p>
+<h1>Cinema: <%= @cinema.name %>, <%= @cinema.location %></h1>
 
 <p>
-  <b>Location:</b>
-  <%= @cinema.location %>
-</p>
-
-<p>
-  <b>Shows currently shown:</b>
+  <b>Films currently shown:</b>
   <ol>
-  <% @cinema.shows.group('film_id, id, cinema_id, hour').each do |show| %>
-    <li><%= link_to show.film.title, show %></li>
+  <% @cinema.screenings.each do |screening| %>
+    <li><%= link_to screening.film.title, screening %></li>
   <% end %>
 </ol>
 </p>

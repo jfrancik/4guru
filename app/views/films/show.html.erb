@@ -5,12 +5,5 @@
   <%= @film.title %>
 </p>
 
-<ol>
-  <% @film.cinemas.each do |cinema| %>
-    <li><%= link_to cinema.name, cinema %></li>
-  <% end %>
-</ol>
-
-
 <%= link_to 'Edit', edit_film_path(@film) %> |
 <%= link_to 'Back', films_path %>

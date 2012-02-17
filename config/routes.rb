@@ -1,4 +1,6 @@
 Guru2::Application.routes.draw do
+  resources :screenings
+
   resources :shows
 
   resources :films

@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= "Screening: \"#{@screening.film.title}\" at #{@screening.cinema.name}, #{@screening.cinema.location}" %></h1>
+
+<p>
+  <b>Show Times:</b>
+  <ol>
+    <% @screening.shows.each do |show| %>
+        <li><%= show.hour %></li>
+    <% end %>
+  </ol>
+</p>
+
+<p>
+  <b>Other cinemas currently showing this film:</b>
+<ol>
+  <% @screening.film.screenings.each do |screening| %>
+    <% unless @screening == screening %>
+        <li><%= link_to screening.cinema.name, screening %></li>
+    <% end %>
+  <% end %>
+</ol>
+</p>
+
+
+<%= link_to 'Edit', edit_screening_path(@screening) %> |
+<%= link_to 'Back', screenings_path %>

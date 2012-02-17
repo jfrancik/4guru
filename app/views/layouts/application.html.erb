@@ -8,6 +8,13 @@
 </head>
 <body>
 
+<p>
+  <%= link_to_unless_current "Cinemas", cinemas_path %>
+  <%= link_to_unless_current "Films", films_path %>
+  <%= link_to_unless_current "Screenings", screenings_path %>
+  <%= link_to_unless_current "Shows", shows_path %>
+</p>
+
 <%= yield %>
 
 </body>

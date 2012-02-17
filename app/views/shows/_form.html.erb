@@ -12,12 +12,8 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :cinema_id %><br />
-    <%= f.text_field :cinema_id %>
-  </div>
-  <div class="field">
-    <%= f.label :film_id %><br />
-    <%= f.text_field :film_id %>
+    <%= f.label :screening_id %><br />
+    <%= f.select :screening_id, Screening.all.collect {|scr| [ "#{scr.film.title} in #{scr.cinema.name}", scr.id]} %>
   </div>
   <div class="field">
     <%= f.label :hour %><br />

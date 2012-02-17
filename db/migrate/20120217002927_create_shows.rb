@@ -1,8 +1,7 @@
 class CreateShows < ActiveRecord::Migration
   def self.up
     create_table :shows do |t|
-      t.integer :cinema_id
-      t.integer :film_id
+      t.integer :screening_id
       t.datetime :hour
 
       t.timestamps

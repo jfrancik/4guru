@@ -1,0 +1,27 @@
+<h1>Listing screenings</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Cinema</th>
+    <th>Film</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @screenings.each do |screening| %>
+  <tr>
+    <td><%= screening.id %></td>
+    <td><%= screening.cinema.name %></td>
+    <td><%= screening.film.title %></td>
+    <td><%= link_to 'Show', screening %></td>
+    <td><%= link_to 'Edit', edit_screening_path(screening) %></td>
+    <td><%= link_to 'Destroy', screening, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Screening', new_screening_path %>

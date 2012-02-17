@@ -1,4 +1,3 @@
 class Show < ActiveRecord::Base
-  belongs_to :cinema
-  belongs_to :film
+  belongs_to :screening
 end

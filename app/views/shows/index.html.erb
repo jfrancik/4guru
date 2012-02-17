@@ -2,8 +2,7 @@
 
 <table>
   <tr>
-    <th>Cinema</th>
-    <th>Film</th>
+    <th>Screening</th>
     <th>Hour</th>
     <th></th>
     <th></th>
@@ -12,8 +11,7 @@
 
 <% @shows.each do |show| %>
   <tr>
-    <td><%= show.cinema_id %></td>
-    <td><%= show.film_id %></td>
+    <td><%= link_to "#{show.screening.film.title} in #{show.screening.cinema.name}", show.screening %></td>
     <td><%= show.hour %></td>
     <td><%= link_to 'Show', show %></td>
     <td><%= link_to 'Edit', edit_show_path(show) %></td>
