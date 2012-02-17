@@ -35,7 +35,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/cinemas/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="352" selection-end="352" vertical-scroll-proportion="0.57954544">
+            <state line="13" column="32" selection-start="173" selection-end="173" vertical-scroll-proportion="0.35876623">
               <folding />
             </state>
           </provider>
@@ -60,9 +60,9 @@
         <option value="$PROJECT_DIR$/app/views/cinemas/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/films/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/films/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/cinemas/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shows/show.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/cinemas/show.html.erb" />
       </list>
     </option>
   </component>
@@ -612,7 +612,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/cinemas/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="352" selection-end="352" vertical-scroll-proportion="0.57954544">
+        <state line="13" column="32" selection-start="173" selection-end="173" vertical-scroll-proportion="0.35876623">
           <folding />
         </state>
       </provider>
