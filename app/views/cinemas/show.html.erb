@@ -13,7 +13,7 @@
 <p>
   <b>Shows currently shown:</b>
   <ol>
-  <% @cinema.shows.group('film_id, id').each do |show| %>
+  <% @cinema.shows.group('film_id, id, cinema_id').each do |show| %>
     <li><%= link_to show.film.title, show %></li>
   <% end %>
 </ol>
