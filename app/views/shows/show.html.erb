@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Cinema:</b>
+  <%= @show.cinema.name %>, <%= @show.cinema.location %>
+</p>
+
+<p>
+  <b>Film:</b>
+  <%= @show.film.title %>
+</p>
+
+<p>
+  <b>Hour:</b>
+  <%= @show.hour %>
+</p>
+
+<p>
+  <b>All screening times in this cinema:</b>
+  <ol>
+  <% @show.cinema.shows.select{|show| show.film_id == @show.film_id}.each do |show| %>
+        <li><%= show.film.title %> at <%= show.cinema.name %>, <%= show.hour %></li>
+  <% end %>
+  </ol>
+</p>
+
+<p>
+  <b>All cinemas screening this movie:</b>
+  <ol>
+    <% @show.film.shows.group('cinema_id').each do |show| %>
+        <li><%= show.film.title %> at <%= show.cinema.name %>
+    <% end %>
+  </ol>
+</p>
+
+<%= link_to 'Edit', edit_show_path(@show) %> |
+<%= link_to 'Back', shows_path %>

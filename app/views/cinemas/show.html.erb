@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @cinema.name %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @cinema.location %>
+</p>
+
+<ol>
+  <% @cinema.shows.group('film_id').each do |show| %>
+    <li><%= link_to show.film.title, show %></li>
+  <% end %>
+</ol>
+
+
+<%= link_to 'Edit', edit_cinema_path(@cinema) %> |
+<%= link_to 'Back', cinemas_path %>
